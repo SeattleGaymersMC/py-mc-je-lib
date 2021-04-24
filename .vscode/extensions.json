@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "gruntfuggly.todo-tree",
+        "yzhang.markdown-all-in-one",
+        "cschlosser.doxdocgen"
+    ]
+}

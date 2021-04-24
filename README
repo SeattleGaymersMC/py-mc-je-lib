@@ -1,0 +1,14 @@
+# Minecraft Verions Library
+Libraries to read, interpret, and download Minecraft assets from the Minecraft Version manifests.
+
+According to the [Minecraft EULA](https://account.mojang.com/documents/minecraft_eula),
+end users are not permitted to distributed coppies of the Minecraft client, server, 
+launchers, etc. While you can re-distribute you make, it cannot include any 
+modified part of their software.
+
+For anyone making mods, custom game launchers, custom content, or wishes to write 
+infrastructure as a service (IaaS) automation such as containers, etc, they 
+***MUST*** ensure the end user downloads the Minecraft assets.
+
+The purpose of this tool is to provide a reliable method to query and retreive
+specific versions of the Minecraft server & client.

@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+httpx = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-asyncio = "*"
+pytest-testslide = "*"
+flake8 = "*"
+black = "==20.8b1"
+minecraft-je-lib = {editable = true, path = "."}
+isort = "*"
+pydocstyle = "*"
+pytest-mock = "*"
+pytest-datafiles = "*"
+
+[requires]
+python_version = "3.8"

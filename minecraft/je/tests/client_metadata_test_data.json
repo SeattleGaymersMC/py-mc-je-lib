@@ -1,0 +1,30 @@
+{
+    "arguments": {},
+    "assetIndex": {},
+    "assets": "1.17",
+    "complianceLevel": 1,
+    "downloads": {
+        "client": {
+            "sha1": "749805abb797f201a76e2c6ad2e7ff6f790bb53c",
+            "size": 19341384,
+            "url": "https://launcher.mojang.com/v1/objects/749805abb797f201a76e2c6ad2e7ff6f790bb53c/client.jar"
+        },
+        "server": {
+            "sha1": "0a39422009a7aa01dd185043746c50dc909dc345",
+            "size": 39159385,
+            "url": "https://launcher.mojang.com/v1/objects/0a39422009a7aa01dd185043746c50dc909dc345/server.jar"
+        }
+    },
+    "id": "21w15a",
+    "javaVersion": {
+        "component": "jre-legacy",
+        "majorVersion": 8
+    },
+    "libraries": [],
+    "logging": {},
+    "mainClass": "net.minecraft.client.main.Main",
+    "minimumLauncherVersion": 21,
+    "releaseTime": "2021-04-14T00:00:00+00:00",
+    "time": "2021-04-14T00:00:00+00:00",
+    "type": "snapshot"
+}

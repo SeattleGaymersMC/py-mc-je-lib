@@ -1,0 +1,2 @@
+TestSlide >= 2.6
+httpx

@@ -1,0 +1,44 @@
+{
+    "latest": {
+        "snapshot": "some-version.snap.shot",
+        "release": "some.official.release.123acdef"
+    },
+    "versions": [
+        {
+            "id": "some-version.snap.shot",
+            "type": "snapshot",
+            "url": "https://test.data/file.json",
+            "time": "1991-01-02T23:59:59+00:00",
+            "releaseTime": "1991-01-02T23:59:59+00:00",
+            "sha1": "e16192eb7672223b01972a56ed52c0444a7120e1",
+            "complianceLevel": 1
+        },
+        {
+            "id": "some.official.release.123acdef",
+            "type": "release",
+            "url": "https://test.data/geromino.json",
+            "time": "1991-03-02T23:59:59+00:00",
+            "releaseTime": "1991-04-02T23:59:59+00:00",
+            "sha1": "7341221e7d9b4b92b1ae5d1e890cfe77d4928922",
+            "complianceLevel": 0
+        },
+        {
+            "id": "inf123test.something.release",
+            "type": "old_alpha",
+            "url": "https://test.data/alo.json",
+            "time": "1991-03-01T23:59:59+00:00",
+            "releaseTime": "1991-04-01T23:59:59+00:00",
+            "sha1": "35e3a7f4dffee6a11ebb32ee10f8405dc1deea8b",
+            "complianceLevel": 1
+        },
+        {
+            "id": "rd123test.something.release",
+            "type": "old_alpha",
+            "url": "https://test.data/alo.json",
+            "time": "1990-03-01T23:59:59+00:00",
+            "releaseTime": "1991-04-01T23:59:59+00:00",
+            "sha1": "aa7a7b811574249594791349426ee292ff717ec9",
+            "complianceLevel": 0
+        }
+    ]
+}
