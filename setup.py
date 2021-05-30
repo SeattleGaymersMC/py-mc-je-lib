@@ -12,7 +12,7 @@ setuptools.setup(
     version="0.0.1",
     author="Seth Cook",
     author_email="cooker52@gmail.com",
-    description="A small example package",
+    description="Minecraft server administration utility designed for DevOps and automation",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/SeattleGaymersMC/py-mc-je-lib",
@@ -27,7 +27,6 @@ setuptools.setup(
     ],
     packages=setuptools.find_packages(),
     python_requires=">=3.7",
-    install_requires=[
-        "httpx",
-    ],
+    install_requires=["httpx", "configargparse"],
+    entry_point={"console_scripts": {"mchex = mchex.cli.__main__"}},
 )
